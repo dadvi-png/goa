@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+}
+#full{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#half{
+    width: 55%;
+    height: 65%;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+#id{
+    width: 65%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#ididididididididididid{
+    font-size: 50px;
+    
+}
+.p{
+    font-size: 21px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    
+}
+#agim{
+    margin-right: 100px;
+}
+#input{
+    width: 350px;
+    height: 50px;
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: hsl(234, 29%, 20%);
+    width: 350px;
+    height: 50px;
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+#left{
+    width: 40%;
+    height: 100%;
+
+    background-image: url('./assets/images/illustration-sign-up-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 15px;
+}
+
+
+

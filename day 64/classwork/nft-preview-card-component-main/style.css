@@ -1,0 +1,107 @@
+body{
+    background-color:  hsl(217, 54%, 11%); 
+}
+#full{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#card{
+    height: 600px;
+    width: 400px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#cardv2{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+#image{
+    background-image: url(./images/image-equilibrium.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: -14px;
+}
+#Equilibrium{
+    color: white;
+}
+p{
+    font-size: 20px;
+     color:hsl(215, 32%, 27%)
+}
+
+
+.s{
+    color: hsl(178, 100%, 50%);
+    width: 50%;
+    display: flex;
+}
+#sp{
+   display: flex;
+   justify-content: space-between;
+   
+}
+#s{
+    justify-content: flex-end;
+    display: flex;
+    
+    gap: 12px;
+}
+#dna{
+   color: hsl(178, 100%, 50%); 
+}
+#and{
+    color: hsl(215, 51%, 70%);
+}
+#nad{
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#h2{
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+#spanz{
+    color: hsl(215, 51%, 70%);
+}
+#spanz:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+#Equilibrium:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+#pointer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#img{
+     display: flex;
+    align-items: center;
+    gap: 12px;
+}

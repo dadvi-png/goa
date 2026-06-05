@@ -1,0 +1,71 @@
+/* #baro{
+    background-color: rgb(219, 11, 11);
+    width: 100px;
+    height: 100px;
+    animation: lado infinite 3s;
+    
+} */
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center; align-items: center;
+    height: 100vh;
+}
+
+/* @keyframes lado{
+    25%{
+        background-color: white;
+    
+    }
+    50%{
+        background-color: chartreuse; transform: rotate(500deg);
+    }
+    100%{
+        background-color: darkblue;
+    }
+} */
+
+
+#ball{
+    border: 1px solid gray;
+    border-right: 2px solid white;
+    /* background-color: white; */
+    height: 200px; width: 800px;
+    /* animation: mtredi 5s infinite ease-in; */
+}
+
+#a{
+    background-color: rgb(42, 249, 10);
+    animation: mtredi 5s infinite ease-in;
+    
+}
+@keyframes mtredi{
+    0%{
+        width: 0%; height: 0%;
+    }
+    50%{
+        height: 50%;
+        width: 50%;
+    }
+    75%{
+        height: 100%; width: 100%;
+    }
+}
+
+
+
+#id{
+    border-radius: 50%;
+    height: 200px; width: 200px; background-color: rgb(6, 255, 205);
+    animation: mtredi1 5s infinite ease-in;
+}
+
+@keyframes mtredi1{
+    50%{
+      transform: translateY(200px);
+    }
+}
+div{
+    display: flex; align-items: flex-end; justify-content: flex-end;
+}

@@ -1,0 +1,66 @@
+
+/* .a{
+  text-align: left;
+  text-decoration: underline;
+  color: white;
+}
+.b{
+  text-align: center;
+  text-decoration: line-through;
+  color: blue;
+}
+.c{
+  text-align: right;
+  text-decoration: overline;
+  color: red;
+}
+body{
+  background-color: black;
+
+  
+} */
+
+
+
+/* 
+
+#a{
+  text-align: left;
+  text-decoration: line-through;
+  
+}
+#b{
+  text-align: left;
+  text-decoration: line-through;
+  
+}
+#c{
+  text-align: right;
+  text-decoration: overline;
+  
+}
+#d{
+  text-align: right;
+  text-decoration: overline;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
+
+#afk{
+  text-align: center;
+  text-decoration: underline red;
+  
+   font-family: "Felipa", serif;
+  font-weight: 50px;
+  font-style: normal;
+}
+
+
+
+#afk1{
+  text-align: right;
+  text-decoration: overline underline blue;
+    font-family: "Felipa", serif;
+  font-weight: 50px;
+  font-style: normal;
+}

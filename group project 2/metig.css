@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+body{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: green;
+}
+ul{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+li{
+    text-align: center;
+    color: green;
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: green;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 600px;
+}
+
+.llia{
+    font-size: 30px;
+=======
+body{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: green;
+}
+ul{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+li{
+    text-align: center;
+    color: green;
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: green;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 600px;
+}
+
+.llia{
+    font-size: 30px;
+>>>>>>> 0f2c4d82c453c6f0f6cf5f90acb45cf0461dee3d
+}

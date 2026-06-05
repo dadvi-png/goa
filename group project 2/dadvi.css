@@ -1,0 +1,100 @@
+<<<<<<< HEAD
+.mtredson{
+    font-size: 25px;
+    background-color: green;
+    text-align: right;
+}
+
+.mtredson:hover{
+    background-color: gray;
+    color: aqua;
+    
+}
+nav{
+    text-align: left;
+    background-color: black;
+}
+body{
+    background-color: rgb(45, 45, 45);
+}
+label{
+    color: green;
+    
+}
+
+h1{
+    color: green;
+    text-align: center;
+    background-color: black;
+}
+input{
+    background-color: black;
+    color: greenyellow;
+}
+
+#asale{
+   color: green;
+   background-color: black;
+}
+
+option{
+    background-color: rgb(0, 0, 0);
+    color: green;
+}
+#mtredi5{
+    background-color: black;
+}
+
+#mtredi4{
+    color: green;
+=======
+.mtredson{
+    font-size: 25px;
+    background-color: green;
+    text-align: right;
+}
+
+.mtredson:hover{
+    background-color: gray;
+    color: aqua;
+    
+}
+nav{
+    text-align: left;
+    background-color: black;
+}
+body{
+    background-color: rgb(45, 45, 45);
+}
+label{
+    color: green;
+    
+}
+
+h1{
+    color: green;
+    text-align: center;
+    background-color: black;
+}
+input{
+    background-color: black;
+    color: greenyellow;
+}
+
+#asale{
+   color: green;
+   background-color: black;
+}
+
+option{
+    background-color: rgb(0, 0, 0);
+    color: green;
+}
+#mtredi5{
+    background-color: black;
+}
+
+#mtredi4{
+    color: green;
+>>>>>>> 0f2c4d82c453c6f0f6cf5f90acb45cf0461dee3d
+}

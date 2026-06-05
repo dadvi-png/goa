@@ -1,0 +1,31 @@
+#html{
+    color: rgb(211, 213, 1);
+}
+.html{
+    color: #000;
+}
+
+#again{
+    color: rgb(21, 2, 129)
+}
+
+#har{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+#hars{
+    background-color: red;
+    width: 65%;
+    height: 65%;
+}
+#harz{
+    background-color: green;
+    width: 35%;
+    height: 35%;
+}
+
+body{
+    background-color: yellow;
+}

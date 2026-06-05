@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+#full{
+   display: flex; 
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+   
+}
+#half{
+   width: 500px;
+   height: 500px;
+}
+#pic{
+    margin-bottom: -450px;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: hsl(228, 12%, 48%);
+}
+.a{
+   display: flex;
+   justify-self: center;
+   align-self: center;
+   flex-wrap: wrap;
+   margin-left: 370px;
+   margin-bottom: 
+   
+}
+
+#half{
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+}
+b{
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+#money{
+    color: hsl(158, 36%, 37%);
+    display: inline;
+    padding-right: -2100px;
+    margin-right: -100px;
+}
+#dollars{
+    display: inline;
+    margin-left: 130px;
+    text-decoration: line-through;
+    
+    
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 275px;
+    height: 75px;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+#h{
+   align-items: center;
+   justify-content: center;
+}
+#per{
+    padding-right: 300px;
+    color: rgba(0, 0, 0, 0.359);
+}
+#pe{
+    padding-right: 200px;
+}
+#IT{
+    padding-right: 10px;
+}
+@media (max-width: 375px){
+    *{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+    #pic{
+    
+    display: flex;
+    margin-top: 500px;
+    margin-left: 300px;
+    padding-left: -1000px;
+   
+}
+#half{
+    margin-top: 100px;
+
+}
+.a{
+    margin-top: -1px;
+    display: flex;
+    
+}
+#per{
+    margin-right: 300px;
+    margin-bottom: -500px;
+
+}
+#half{
+    
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+}
+}
+
+
+
+
+

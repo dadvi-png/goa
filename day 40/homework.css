@@ -1,0 +1,22 @@
+body{
+    height: 200vh;
+}
+
+.burm{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+p{
+    text-align: center;
+}
+
+.burm:hover{
+    transform: translate(10px, 10px);
+}
+.burm:active{
+    transform: translate(15px, 15px);
+}
+/* Translate(TranslateX) - ამოძრავებს ელემენტს x ღერძზე და y ღერძზე
+TranslateX - ამოძრავებს ელემენტს x ღერძზე
+TranslateY - ამოძრავებს ელემენტს y ღერძზე */

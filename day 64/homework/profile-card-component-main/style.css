@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#full{
+    height: 100vh;
+    display: flex;
+}
+#top{
+    background-image: url(./images/bg-pattern-top.svg);
+    width: 35%;
+    height: 35%;
+    background-position: top;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+#imgbg{
+     background-image: url(./images/bg-pattern-card.svg);
+     width: 100%;
+     height: 45%;
+     border-radius: 20px;
+}
+#half{
+    width: 400px;
+    height: 400px;
+    background-color: hsl(225, 10%, 92%);
+    border-radius: 20px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-right: 100px;
+    
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+#device{
+    border-radius: 50%;
+    border: 5px hsl(225, 10%, 92%) solid;
+    
+    margin-top: 125px;
+    display: flex;
+    justify-self: center;
+    
+}
+#pige{
+    opacity: 30%;
+}
+#c{
+    display: flex;
+    justify-self: center;
+    gap: 15px;
+}
+.c{
+    display: flex;
+    justify-self: center;
+    font-weight: 700;
+    opacity: 30%;
+}
+#a{
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 30px;
+}
+#b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #bot{
+    background-image: url(./images/bg-pattern-top.svg);
+    width: 35%;
+    height: 35%;
+    background-position: bottom;
+    background-size: cover;
+    transform: rotate(180deg);
+    margin-top: 475px;
+}

@@ -1,0 +1,39 @@
+/* 0) background-image, background-size, background-postion, background-repeat.*/
+/* body{
+    background-image: url(https://i.redd.it/does-anyone-elses-dog-just-roll-in-the-grass-every-time-v0-32rsr1fa5wz81.jpg?width=3024&format=pjpg&auto=webp&s=5fbb5bf881ad433633e51c73cb7dbd321dd3af26);
+    background-size: contain;
+    
+} */
+/* coverსა და containს შორის განსხვავება ის არის, რომ coverი ფარავს ეკრანს და თუ ფოტო დიდია მაშინ ცოტა დეტალი ჩანს. containი ფოტო თავისუფლად ჩანს მაგრამ თუ პატარაა არ ვიყენებთ*/
+
+div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(178, 14, 14);
+    transition: transform 5s, background-color 1s;
+    justify-content: center;
+    align-items: center;
+    width:  200vh;
+}
+
+div:hover{
+    transform: scale(6.1);
+    background-color: white;
+}
+body{background-color: red;}
+/* ანიმაცია არის მოძრაობა როდისაც ელემენტი ფერს იცვლის ან სიგანეს/სიგრძეს ის cssში, რომ გამოვიყენოთ უნდა გამოვიყენოთ transform. transformი იწერება ელემენტის hover aნ active selectorებთან. */
+/* div{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: transform 10s, background-color 1s;
+    justify-content: center;
+    align-items: center;
+    width:  200vh;
+}
+div:hover{
+    transform: scale(2);
+    background-color: red;
+} */

@@ -1,0 +1,20 @@
+import numpy as np
+np.random.seed(8423)
+distribution=np.random.normal(loc=21, scale=3, size=365)
+missed=np.random.choice(365, size=int(0.1*365), replace=False)
+distribution[missed]=np.nan
+comfortable= (distribution>=20) & (distribution<=24)
+winter=(np.arange(365)<=78) | (np.arange(365)>=355)
+summer=(np.arange(365)>=172) & (np.arange(365)<=262)
+comfortable_days=np.nansum(comfortable)
+valid=np.sum(~np.isnan(distribution))
+comfortable_percentage=(comfortable_days/valid)*100
+average_summer_temperature=np.nanmean(distribution[summer])
+max_winter_temperature=np.nanmax(distribution[winter])
+uncomfortable=(~comfortable) & (~summer)
+median_uncomfortable=np.nanmedian(distribution[uncomfortable])
+print(f"comfortable days:{comfortable_days}")
+print(f"comfortable percentage{comfortable_percentage}%")
+print(f"average summer temperature:{average_summer_temperature}")
+print(f"maximum winter temperature:{max_winter_temperature}")
+print(f"median temperature on uncomfortable days outside summer:{median_uncomfortable}")

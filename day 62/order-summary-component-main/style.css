@@ -1,0 +1,66 @@
+#full{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+}
+#img1{
+   border-radius: 10px;
+   display: flex;
+   
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#down{
+    background-color: white;
+    width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#h68{
+    font-weight: 600;
+}
+#musicarea{
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  height: 50px;
+}
+#icon{
+    display: inline;
+}
+#underlineblue{
+    text-decoration: underline;
+    color: blue; 
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+#button{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+#cancle{
+    color: rgba(0, 0, 0, 0.392);
+}
+@media (max-width: 375px){
+    body{
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+}

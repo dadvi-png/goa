@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    display: flex;
+    background-color: rgb(165, 158, 158);
+    justify-content: center;
+    
+}
+#result{
+    
+    border-radius: 10px;
+    background-color: blue;
+    width: 300px; height: 400px;
+    margin-top: 100px;
+    
+    
+}
+
+
+.hey{
+    justify-self: center;
+    color: white;
+}
+
+#circle{
+    border: rgb(3, 21, 189), solid, 4px;
+    border-radius: 50px;
+    width: 50%; 
+    height: 30%;
+    justify-self: center;
+    background-color: rgb(13, 13, 220);
+}
+.hey {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+#pen{
+    
+    background-color: rgb(255, 255, 255);
+    width: 300px; 
+    height: 400px;
+    margin-top: 100px;
+    border-radius: 25px;
+    
+    
+}  
+    
+
+@media (max-width: 375px) {
+    #pen{
+        
+        border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 300px; height: 400px;
+    margin-top: 500px;
+
+    
+    
+
+    
+    
+    
+    }
+    body{
+        justify-content: flex-start;
+    }
+    
+    
+}
+.swag{
+    display: inline;
+}
+
+#idk{
+    background-color: rgba(255, 0, 0, 0.289);
+    border-radius: 25px;
+}
+#idks{
+    background-color: rgba(109, 117, 21, 0.255);
+    border-radius: 25px;
+}
+#bdad{
+    color: rgb(255, 0, 0);
+}
+#bdadk{
+   color: yellow;
+}
+#bdadks{
+   color: rgb(0, 255, 85);
+}
+#bdadkss{
+   color: rgb(0, 8, 255);
+}
+button{
+    display: inline;
+    width: 90%;
+    height: 10%;
+    align-self: center;
+    background-color: blue;
+    color: white;
+    border-radius: 100px;
+    cursor:pointer;
+    justify-self: center;
+    
+}
+#sum{
+    align-self: center;
+    justify-self: center;
+}
+/* 61/100 */

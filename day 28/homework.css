@@ -1,0 +1,14 @@
+#mtredi{
+  list-style: circle;  
+}
+
+#car{
+    list-style: upper-roman;
+}
+
+.in{
+   
+    color: gray;
+    font-size: medium;
+}
+

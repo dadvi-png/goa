@@ -1,0 +1,67 @@
+h1{
+    color: purple;
+    padding-left: -100px;
+}
+
+.hey{
+    
+    border-radius: 50px;
+
+}
+
+.relative{
+    display: flex;
+    height: 250px;
+    width: 750px;
+    background-color: purple;
+    border-radius: 2%;
+    align-items: center;
+}
+body{
+    background-image: url(bg-pattern-bottom-desktop.svg);
+}
+
+.agj{
+   /* display: flex;
+   justify-self: center;
+   align-self: flex-end; */
+   color: white;
+}
+.agj{
+    display: flex;
+    align-self: baseline;
+    justify-self: flex-start;
+    color: magenta;
+}
+.home{
+    display: flex;
+    border-radius: 5%;
+    justify-self: center;
+    margin-left: 50%;
+    background-color: rgb(178, 177, 177);
+    width: 500px;
+    height: 50px;
+
+
+
+} 
+
+.home1{
+    display: flex;
+    margin-left: 68%;
+    justify-self: center;
+    background-color: rgb(178, 177, 177);
+    width: 500px;
+    height: 50px;
+    border-radius: 5%;
+}
+
+.home2{
+     display: flex;
+    margin-left: 77%;
+    justify-self: center;
+    background-color: rgb(178, 177, 177);
+    width: 500px;
+    height: 50px;
+    border-radius: 5%;
+}

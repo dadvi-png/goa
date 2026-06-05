@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+     height: 100vh;
+     display: flex; align-items: center; justify-content: center;
+    }
+
+#div{
+    animation: spinrapidly 2s infinite;
+    width: 50px; height: 50px;
+    border-top: white solid 4px;
+    background-color: rgb(0, 0, 0);
+    /* border-left: gray solid 4px;
+    border-right: gray solid 4px;
+    border-bottom: gray solid 4px; */
+}
+
+@keyframes spinrapidly{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ანიმაციის გასაკეთებლად საჭიროა animation მან უნდა ჩავწეროთ დეტალები მაგ რამდენი ხანი უნდა მოუნდეს ანიმაციის დადასრულს და მერე @keyframes [animation name] უნდა გავაკეთოთ(: */

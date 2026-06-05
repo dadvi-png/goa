@@ -1,0 +1,15 @@
+tr, td, .hey{
+  border: 2px solid yellow
+}
+tr:hover{
+  color: blue;
+}
+
+
+tr:hover:nth-child(even){
+    background-color: black;
+}
+
+th:nth-child(1){
+  background-color: aqua;
+}

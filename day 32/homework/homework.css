@@ -1,0 +1,28 @@
+h1.simtredi{
+    background-color: aqua;
+    border-bottom: 20px dashed yellow;
+    border-right: 10px solid red;
+    border-top: 15px dotted purple;
+    padding: 20px 20px 20px 20px;
+    margin-top: 5%;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px crimson;
+}
+body{
+    color: red;
+    background-color: cornflowerblue;
+}
+
+#a{
+    background-color: chartreuse;
+    padding: 20px 20px 20px 20px;
+    border: 20px solid black;
+}
+#mtredson{
+    border-bottom: 5px dotted brown;
+    border-top: 5px solid paleturquoise;
+    border-left: 10px solid chocolate;
+    border-right: 67px solid whitesmoke;
+    font-weight: bolder;
+    
+}

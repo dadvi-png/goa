@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+#ilovegoa{
+    text-shadow: 7px 2px 20px blue; 
+}
+
+#a{
+     font-family: "BBH Bartle", sans-serif;
+  font-weight: 50px;
+  font-style: normal;
+}
+
+body{
+    background-color: green;
+}

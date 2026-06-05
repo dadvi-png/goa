@@ -1,0 +1,51 @@
+#ahh{
+    position: relative;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    top: 200px;
+    
+}
+
+body{
+    background-color: green;
+}
+.ahh{
+   width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+#rah{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -0.9;
+    background-color: aqua;
+}
+img{
+    position: fixed;
+    display: flex;
+    align-self: left;
+    
+}
+
+#displayflex{
+    display: flex;
+    width: 200px;
+   height: 200px;
+   justify-content: center;
+   align-items: flex-end;
+   flex-direction: column;
+}
+.a{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+}
+
+#a{
+    display: flex;
+    order: -1;
+}
+

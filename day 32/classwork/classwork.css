@@ -1,0 +1,26 @@
+button {
+    border: 20px solid black;
+    
+}
+
+#heyy{
+    padding: 20px;
+    background-color: aqua;
+    
+}
+
+
+#hello{
+  padding: 20%;
+  background-color: red;
+
+}
+
+#mtredi{
+    background-color: aqua;
+}
+
+#hep{
+    border: 2px solid black;
+}
+/* აქ მე გავაკეთე ბუთონი დივი და ჰ1 გავსტილე, მე ახალი რაღაცა გამოვცადე რომელმაც ჰ1 ბორდერი მისცა. პუდინგებიჩ გამოვიყენე.*/
