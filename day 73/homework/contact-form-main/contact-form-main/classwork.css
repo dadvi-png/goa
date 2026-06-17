@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+   
+}
+body{
+    background-color: hsl(186, 15%, 59%);
+}
+#full{
+    height: 100vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#card{
+    height: 85%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#already{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+#alreadyz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+   
+}
+
+
+#first{
+    width: 40%;
+    border-radius: 10px;
+    font-size: x-large;
+}
+#lasy{
+    height: 50px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: x-large;
+}
+#smaller{
+    width: 90%;
+    height: 90%;
+}
+
+#flexy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 86px;
+    
+    
+}
+#penmail{
+    height: 100px;
+     border-radius: 10px;
+    font-size: x-large;
+}
+.content:hover{
+    border: 2px solid hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+#one{
+    border: 2px solid black;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#sec{
+    border: 2px solid black;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#checker{
+    height: 55px;
+     display: flex;
+    gap: 15px;
+    
+}
+.quea{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+#sec:hover{
+    cursor: pointer;
+}
+#one:hover{
+    cursor: pointer;
+}
+.quea:hover{
+    cursor: pointer;
+}
+.tex{
+    cursor: pointer;
+}
+#message{
+    font-size: xx-large;
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+#mtredi{
+    height: 20px;
+    width: 20px;
+     background-color: hsl(187, 24%, 22%);
+}
+#mtredi{
+    cursor: pointer;
+}
+#ce{
+    display: flex;
+    gap: 20px;
+}
+#button{
+    width: 100%;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: hsl(187, 24%, 22%);
+
+}

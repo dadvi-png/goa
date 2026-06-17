@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="classwork.css">
+<!-- 👍 -->
+ 
+</head>
+<body>
+
+  <!-- Contact Us
+
+  First Name
+  This field is required
+
+  Last Name
+  This field is required
+
+  Email Address
+  Please enter a valid email address
+  This field is required
+
+  Query Type
+  General Enquiry
+  Support Request
+  Please select a query type
+
+  Message
+  This field is required
+
+  I consent to being contacted by the team
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  Message Sent!
+  Thanks for completing the form. We'll be in touch soon! -->
+  
+  <div id="full">
+    <div id="card">
+    <div id="smaller">
+      <form id="afront">
+        <div id="center"><h1>Contact Us</h1></div>
+    <br>
+      <div id="already"><p>First Name</p> <p>Last Name</p></div>
+      <div id="alreadyz"><input type="text" name="name" id="first" class="content" required>  
+        <input type="text" name="last" id="lasy" class="content" required>
+      </div>
+       <div id="flexy"><br>
+          <label>Email Adress</label>
+          <input type="email" name="email" id="penmail" class="content">
+          
+       </div><br><p>Query Type</p><br>
+       <div id="checker">
+       
+         <div id="one">
+          
+          <input type="radio" name="querys" class="quea" required>
+          <label class="tex">General Enquiry</label>
+         </div>
+         <div id="sec">
+          <input type="radio" name="querys" class="quea" required>
+          <label class="tex">Support Request</label>
+         </div>
+       </div><br>
+       <label>Message</label><br>
+       <input type="text" name="mail" id="message" class="content"><br><br>
+       <div id="ce">
+        <input type="checkbox" id="mtredi" required>
+       <label>I consent to being contacted by the team</label>
+       
+       </div>
+       <br>
+       <button id="button">sumbit</button>
+      </form>
+       
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
