@@ -28,8 +28,26 @@ class user{
         console.log(`hi ${this.firstnamename}`)
     }
 }
+class market{
+    constructor(item, price){
+        this.item = item
+        this.price = price
+    }
+    getprice(){
+        console.log(`this ${this.item}s price is ${this.price}`)
+    }
+}
 
-
+class countries{
+    constructor(georgia, chad, germany){
+        this.georgia = georgia
+        this.chad = chad
+        this.germany = germany
+    }
+    getcountries(){
+        console.log(`countries ${this.georgia,this.germany,this.chad}`)
+    }
+}
 
 let pigeons = new pigeonstype("pigeon", "pigeonnormal")
 console.log(pigeons)
