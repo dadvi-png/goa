@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 30px;
+    display: flex;
+    gap: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgn {
+    display: flex;
+    gap: 35px;
+}
+
+#links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+#login {
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: 600;
+}
+
+#signup {
+    border: none;
+    background-color:hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 20px;
+    width: 85px;
+    height: 30px;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    
+}
+
+#main h1 {
+    font-size: 55px;
+}
+
+#right {
+    margin-right: -200px;
+}
+#hero {
+    width: 85%;
+}
+
+#main p {
+    color: gray;
+    font-weight: 500;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#main button {
+    border: none;
+    background-color:hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-weight: 600;
+}
+
+#form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    background-image: url("./images/bg-shorten-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 27%, 26%);
+    width: 82%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+input {
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder{
+    padding-left: 20px;
+}
+
+#shorten {
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+#adv {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 94%);
+    height: 500px;
+}#advs {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#advs p {
+    color: gray;
+    font-weight: 400;
+}
+
+.images {
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+}
+
+.images img {
+    justify-self: center;
+    width: auto;
+
+}
+
+#divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#brand {
+    background-color: white;
+    width: 25%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    height: 320px;
+}
+
+#detail {
+    background-color: white;
+    width: 25%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    height: 320px;
+}
+
+#Fully {
+    background-color: white;
+    width: 25%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    height: 320px;
+    
+}
+
+.divstext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+#boost{
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    background-image: url("./images/bg-shorten-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+#butza{
+    border: none;
+    background-color:hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-weight: 600;
+}
+#flexyable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navs{
+    background-color: black;
+    display: flex;
+    
+    gap: 30px;
+}
+#logos{
+    background-color: black;
+    margin-left: 300px;
+    padding-bottom: 50px;
+    
+    
+}
+#shortening{
+    background-color: black;
+    color: white;
+}
+#Shortlyz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.jis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+a:hover{
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+.first{
+    font-size: bold;
+    color: white;
+}
+
+
