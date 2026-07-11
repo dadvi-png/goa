@@ -1,0 +1,7 @@
+const {multiplied,sum,evenorodd,greet,stockorno,minus} = require("./helper")
+console.log(multiplied(2,2))
+console.log(sum(2,2))
+console.log(evenorodd(2))
+console.log(greet("james"))
+console.log(stockorno("banana", 0))
+console.log(minus(2,2))
